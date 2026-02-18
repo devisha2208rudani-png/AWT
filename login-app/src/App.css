@@ -1,0 +1,96 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Works in light + dark systems */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #121212; /* dark friendly */
+  color: #f1f1f1;
+}
+
+/* Login Card */
+.container {
+  width: 340px;
+  padding: 25px;
+
+  background-color: #1e1e1e;
+  border-radius: 8px;
+
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+.container h2 {
+  margin-bottom: 15px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+
+  border-radius: 5px;
+  border: 1px solid #444;
+
+  background-color: #2a2a2a;
+  color: white;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+
+  border: none;
+  border-radius: 5px;
+
+  background-color: #4a90e2;
+  color: white;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+/* Dashboard pages */
+.page {
+  width: 600px;
+  padding: 30px;
+
+  background-color: #1e1e1e;
+  border-radius: 8px;
+
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+/* Profile Card */
+.profile {
+  margin-top: 20px;
+  padding: 15px;
+
+  border-radius: 6px;
+  background-color: #2a2a2a;
+}
+
+/* Messages */
+p {
+  margin-top: 10px;
+}
